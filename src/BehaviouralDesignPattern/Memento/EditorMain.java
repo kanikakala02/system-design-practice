@@ -1,7 +1,7 @@
 package BehaviouralDesignPattern.Memento;
 
 public class EditorMain {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         Editor editor = new Editor();
         CareTaker careTaker = new CareTaker();
         editor.setContent("Demo text 1");

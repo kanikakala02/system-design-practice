@@ -1,6 +1,6 @@
 package OOPS;
 
-public abstract class Card implements PaymentMethod{
+public abstract class Card implements PaymentMethod {
     protected String cardNo;
     protected String userName;
 
@@ -9,10 +9,11 @@ public abstract class Card implements PaymentMethod{
         this.userName = userName;
     }
 
-    public String getCardNo(){
+    public String getCardNo() {
         return cardNo;
     }
-    public String getUserName(){
+
+    public String getUserName() {
         return userName;
     }
 

@@ -2,7 +2,7 @@ package BehaviouralDesignPattern.ObserverPattern;
 
 public class ObserverMain {
     public static void main(String[] args) {
-        WeatherStation weatherStation= new WeatherStation(25);
+        WeatherStation weatherStation = new WeatherStation(25);
         DeviceA deviceA = new DeviceA();
         DeviceB deviceB = new DeviceB();
         weatherStation.attach(deviceA);

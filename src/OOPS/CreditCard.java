@@ -1,12 +1,12 @@
 package OOPS;
 
-public class CreditCard extends Card{
+public class CreditCard extends Card {
     public CreditCard(String cardNo, String userName) {
         super(cardNo, userName);
     }
 
     @Override
     public void pay() {
-        System.out.println("payment via Credit card "+ cardNo);
+        System.out.println("payment via Credit card " + cardNo);
     }
 }
